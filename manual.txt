@@ -1,0 +1,8 @@
+To run the game, run the game_run.py file in your terminal.
+Select whether you are a host or a client.
+Enter the amount of players you wish to play with (2-6)
+Join the game run the program in another terminal screen, and select client.
+The host always rolls first, press "r" to roll.
+Next the client rolls, then the next client.. This rotation will continue until the game is complete.
+
+
