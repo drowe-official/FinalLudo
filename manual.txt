@@ -5,7 +5,7 @@ Join the game run the program in another terminal screen, and select client.
 The host always rolls first, press "r" to roll.
 Next the client rolls, then the next client.. This rotation will continue until the game is complete.
 
-
+This step must be on a linux machine
 To viusalize our GUI run player_4.py/player_5.py/player_6.py
 You must pip3 install "pymunk" and "arcade" to run these.
 To roll the die, simple press Enter on the keyboard.
