@@ -64,7 +64,7 @@ elif inp == "client":
     player_id = 0
     while True:
         if player_id == CLIENT_ID: #if its their turn
-            if input() == "r":
+            if input("Press 'r' to roll") == "r":
                 print ("taking my turn")
                 rolls = die.get_rolls()
                 pickled = pickle_turn(CLIENT_ID, rolls)
