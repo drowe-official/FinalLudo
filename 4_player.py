@@ -123,7 +123,7 @@ class MyGame(arcade.Window):
 
     def setup(self):
 
-        self.background = arcade.load_texture(".\\boards\\ludo4.png")
+        self.background = arcade.load_texture("./boards/ludo4.png")
 
         # Setting a default value to display on the middle roll
         self.roll = "6"
