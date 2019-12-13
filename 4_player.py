@@ -110,7 +110,7 @@ class MyGame(arcade.Window):
             shape = pymunk.Poly.create_box(body, (size, size))
             self.space.add(body, shape)
 
-            sprite = BoxSprite(shape, (".\\sprites\\" + sprite_list[count][i]),
+            sprite = BoxSprite(shape, ("./sprites/" + sprite_list[count][i]),
                                width=size, height=size)
             self.player_list.append(sprite)
 
@@ -194,3 +194,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
