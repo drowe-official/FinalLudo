@@ -119,7 +119,7 @@ class MyGame(arcade.Window):
             shape = pymunk.Poly.create_box(body, (size, size))
             self.space.add(body, shape)
 
-            sprite = BoxSprite(shape, (".\\sprites\\" + sprite_list[count][i]),
+            sprite = BoxSprite(shape, ("./sprites/" + sprite_list[count][i]),
                                width=size, height=size)
             self.player_list.append(sprite)
 
@@ -133,7 +133,7 @@ class MyGame(arcade.Window):
 
     def setup(self):
 
-        self.background = arcade.load_texture(".\\boards\\ludo5.png")
+        self.background = arcade.load_texture("./boards/ludo5.png")
 
         # Setting a default value to display on the middle roll
         self.roll = "6"
