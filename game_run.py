@@ -39,7 +39,7 @@ if inp == "host":
                     break
             print ("received moves for another player", pickled)
         else: # host's turn
-            if input() == "r":
+            if input("Press 'r' to roll") == "r":
                 print ("taking my turn")
                 rolls =  die.get_rolls()
                 pickled = pickle_turn(HOST_ID, rolls)
